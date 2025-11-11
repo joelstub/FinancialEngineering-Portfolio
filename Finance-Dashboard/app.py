@@ -131,4 +131,5 @@ def update_view(records, year_range, active_tab):
         return kpis, table
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)          # ggf. app.run(debug=True, port=8051)
+
